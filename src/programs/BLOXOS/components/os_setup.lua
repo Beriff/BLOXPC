@@ -33,7 +33,6 @@ while true do
       
     end
 end
+  
+return currCursor
 
-function getCursor()
-  return currCursor
-end
