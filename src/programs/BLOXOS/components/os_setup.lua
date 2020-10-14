@@ -36,6 +36,7 @@ while true do
       fsOptions()
     end
   end
+  wait(0.5)
 end
   
 return currCursor
