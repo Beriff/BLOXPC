@@ -7,6 +7,7 @@ function genFile(name, content, ext)
 	file[1] = content
 	file[2] = ext
 	SMF[gAddr] = file
+	HDDmodule.exactAddContent(SMF, 1)
 	return file
 end
 
