@@ -1,3 +1,5 @@
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Beriff/BLOXPC?style=flat-square) ![Lines of code](https://img.shields.io/tokei/lines/github/Beriff/BLOXPC?style=flat-square) ![GitHub](https://img.shields.io/github/license/Beriff/BLOXPC?style=flat-square)
+
 # BLOXPC
 
 BLOXPC is a singleplayer roblox game where you're given a working PC. And nothing else. Do whatever you want!
