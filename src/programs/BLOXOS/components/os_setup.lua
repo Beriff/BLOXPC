@@ -4,7 +4,7 @@ function fsOptions()
   BIOSAPIS["sendMonitorSignal"]("set", "Welcome to BLOXOS setup master.\n")
   BIOSAPIS["sendMonitorSignal"]("add", "Please select what filesystem should be installed: \n")
   BIOSAPIS["sendMonitorSignal"]("add", "BSFS (recommended)")
-  if not currCursor then
+  if not currCursor == 1 then
     BIOSAPIS["sendMonitorSignal"]("add", "\n")
   else
     BIOSAPIS["sendMonitorSignal"]("add", " < \n")
