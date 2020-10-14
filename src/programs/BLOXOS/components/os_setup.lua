@@ -35,6 +35,7 @@ while true do
       currCursor = 1
       fsOptions()
     end
+  end
 end
   
 return currCursor
