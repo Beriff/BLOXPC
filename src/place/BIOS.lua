@@ -118,7 +118,8 @@ function execute(part)
 	
 	part:Remove()
 	--print('works')
-	if script.Parent.Parent.Handle.MyModule ~= nil then
+	if script.Parent.Parent:FindFirstChild('Handle') then
+		BIOSsendMonitorSignal('set', ' ')
 		local module = require(script.Parent.Parent.Handle.MyModule)
 		module.exec(BIOSAPIS)
 	else
