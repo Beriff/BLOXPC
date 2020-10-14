@@ -39,6 +39,8 @@ while true do
   end
   wait(0.5)
 end
+
+HDDmodule.exactAddContent(true, 2)
   
 return currCursor
 
