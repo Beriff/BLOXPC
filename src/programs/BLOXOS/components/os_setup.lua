@@ -11,9 +11,9 @@ function fsOptions()
   end
   BIOSAPIS["sendMonitorSignal"]("add", "SUFS")
   if currCursor == 1 then
-    BIOSAPIS["sendMonitorSignal"]("add", "< \n")
+    BIOSAPIS["sendMonitorSignal"]("add", "\n")
   else
-    BIOSAPIS["sendMonitorSignal"]("add", " \n")
+    BIOSAPIS["sendMonitorSignal"]("add", " < \n")
   end
  end
  
