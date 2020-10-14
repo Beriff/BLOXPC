@@ -1,3 +1,5 @@
+currCursor = 0
+
 function fsOptions()
   BIOSAPIS["sendMonitorSignal"]("set", "Welcome to BLOXOS setup master.\n")
   BIOSAPIS["sendMonitorSignal"]("add", "Please select what filesystem should be installed: \n")
@@ -22,6 +24,7 @@ while true do
     if currCursor then
     
       currCursor = 0
+      fsOptions()
       
     elseif clicked == "enter" then
     
@@ -30,7 +33,7 @@ while true do
     else
     
       currCursor = 1
-      
+      fsOptions()
     end
 end
   
