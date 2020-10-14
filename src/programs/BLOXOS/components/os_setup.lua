@@ -21,7 +21,7 @@ fsOptions()
 while true do
   clicked = BIOSAPIS["detectUserInput"]()
   print(clicked)
-  if clicked == "upArr" or clicked == "downArr" then
+  if clicked == "arrUp" or clicked == "arrDown" then
     if currCursor then
     
       currCursor = 0
