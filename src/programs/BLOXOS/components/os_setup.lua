@@ -23,7 +23,7 @@ while true do
   print(clicked)
   if clicked == "arrUp" or clicked == "arrDown" then
     if currCursor == 1 then
-    
+      print('run for up')
       currCursor = 0
       fsOptions()
       
@@ -32,7 +32,7 @@ while true do
       break
     
     elseif currCursor == 0 then
-    
+      print('run for down')
       currCursor = 1
       fsOptions()
     end
